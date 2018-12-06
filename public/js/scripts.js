@@ -1,0 +1,1 @@
+!function(a,b,c){"use strict";a(window).scroll(function(){a(this).scrollTop()>100?a(".scrollup").fadeIn():a(".scrollup").fadeOut(),a(".scrollup").click(function(){return a("html, body").animate({scrollTop:0},600),!1})})}(jQuery);
