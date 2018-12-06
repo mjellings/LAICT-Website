@@ -6,7 +6,7 @@
 					<!-- article -->
 					<article id="post-5" class="post-5 page type-page status-publish hentry">
 						<div  class="" style="text-align: center;">
-							<img width="920" height="200" src="img/page_headers/home.png" class="" alt="" />
+							<img width="920" height="200" src="{{ asset('img/page_headers/home.png') }}" class="" alt="" />
 						</div>
 						<h1 style="text-align: left">Welcome to LA-ICT</h1>
 						<div class="" >
