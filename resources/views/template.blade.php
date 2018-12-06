@@ -45,7 +45,7 @@
 						<li id="menu-item-38" class="menu-item {{ Request::segment(1) === null ? 'current-menu-item active' : null }}">
 							<a title="Home" href="http://la-ict.com/">Home</a>
 						</li>
-						<li id="menu-item-40" class="menu-item dropdown {{ Request::segment(1) === 'services' ? 'current-menu-item active' : null }}">
+						<li id="menu-item-40" class="menu-item dropdown">
 							<a title="Services" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Services 
 							<span class="caret"></span>
 						</a>
