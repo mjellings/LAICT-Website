@@ -30,3 +30,7 @@ Route::get('/services/remote-backup/', function () {
 Route::get('/services/web-development/', function () {
     return view('pages.services.web-development');
 });
+
+Route::get('/services/connectivity/', function () {
+    return view('pages.services.connectivity');
+});
