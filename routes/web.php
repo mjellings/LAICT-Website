@@ -34,3 +34,7 @@ Route::get('/services/web-development/', function () {
 Route::get('/services/connectivity/', function () {
     return view('pages.services.connectivity');
 });
+
+Route::get('/our-promise', function () {
+    return view('pages.our-promise');
+});
