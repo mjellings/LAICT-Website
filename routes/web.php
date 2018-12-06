@@ -50,3 +50,7 @@ Route::get('/support-info', function () {
 Route::get('/terms-and-conditions', function () {
     return view('pages.terms-and-conditions');
 });
+
+Route::get('/privacy', function () {
+    return view('pages.privacy');
+});
