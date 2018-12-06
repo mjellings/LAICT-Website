@@ -46,3 +46,7 @@ Route::get('/contact-us', function () {
 Route::get('/support-info', function () {
     return view('pages.support-info');
 });
+
+Route::get('/terms-and-conditions', function () {
+    return view('pages.terms-and-conditions');
+});
