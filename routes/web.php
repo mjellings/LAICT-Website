@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/services/general-support/', function () {
     return view('pages.services.general');
 });
+
+Route::get('/services/server-support/', function () {
+    return view('pages.services.server');
+});
