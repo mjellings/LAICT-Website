@@ -26,3 +26,7 @@ Route::get('/services/server-support/', function () {
 Route::get('/services/remote-backup/', function () {
     return view('pages.services.remote-backup');
 });
+
+Route::get('/services/web-development/', function () {
+    return view('pages.services.web-development');
+});
