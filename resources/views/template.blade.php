@@ -42,8 +42,8 @@
 				</div>
 				<div class="navbar-collapse collapse"> 
 					<ul id="menu-primary" class="nav navbar-nav navbar-right">
-						<li id="menu-item-38" class="menu-item current-menu-item active">
-							<a title="Home" href="http://la-ict.com/">Home</a>
+						<li id="menu-item-38" class="menu-item {{ Request::segment(1) === null ? 'current-menu-item active' : null }}">
+							<a title="Home" href="/">Home</a>
 						</li>
 						<li id="menu-item-40" class="menu-item dropdown">
 							<a title="Services" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Services 
