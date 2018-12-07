@@ -11,46 +11,24 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.home');
-});
+Route::get('/', 'PageController@index');
 
-Route::get('/services/general-support/', function () {
-    return view('pages.services.general');
-});
+Route::get('/services/general-support/', 'PageController@general_support');
 
-Route::get('/services/server-support/', function () {
-    return view('pages.services.server');
-});
+Route::get('/services/server-support/',  'PageController@server_support');
 
-Route::get('/services/remote-backup/', function () {
-    return view('pages.services.remote-backup');
-});
+Route::get('/services/remote-backup/',  'PageController@remote_backup');
 
-Route::get('/services/web-development/', function () {
-    return view('pages.services.web-development');
-});
+Route::get('/services/web-development/',  'PageController@web_development');
 
-Route::get('/services/connectivity/', function () {
-    return view('pages.services.connectivity');
-});
+Route::get('/services/connectivity/',  'PageController@connectivity');
 
-Route::get('/our-promise', function () {
-    return view('pages.our-promise');
-});
+Route::get('/our-promise',  'PageController@our_promise');
 
-Route::get('/contact-us', function () {
-    return view('pages.contact-us');
-});
+Route::get('/contact-us',  'PageController@contact_us');
 
-Route::get('/support-info', function () {
-    return view('pages.support-info');
-});
+Route::get('/support-info',  'PageController@support_info');
 
-Route::get('/terms-and-conditions', function () {
-    return view('pages.terms-and-conditions');
-});
+Route::get('/terms-and-conditions', 'PageController@terms_and_conditions');
 
-Route::get('/privacy', function () {
-    return view('pages.privacy');
-});
+Route::get('/privacy',  'PageController@privacy');
