@@ -1,5 +1,7 @@
 <p align="center">
-[![Build Status](https://travis-ci.org/mjellings/LAICT-Website.svg?branch=master)](https://travis-ci.org/mjellings/LAICT-Website)
+    <a href="https://travis-ci.org/mjellings/LAICT-Website">
+        <img src="https://travis-ci.org/mjellings/LAICT-Website.svg?branch=master" />
+    </a>
 </p>
 
 ## LA ICT Website
