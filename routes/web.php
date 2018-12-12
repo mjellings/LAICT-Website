@@ -32,3 +32,5 @@ Route::get('/support-info',  'PageController@support_info');
 Route::get('/terms-and-conditions', 'PageController@terms_and_conditions');
 
 Route::get('/privacy',  'PageController@privacy');
+
+Route::get('/phpinfo', 'PageController@phpinfo');

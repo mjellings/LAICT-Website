@@ -50,4 +50,7 @@ class PageController extends Controller
         return view('pages.privacy');
     }
     
+    public function phpinfo() {
+        phpinfo();
+    }
 }
